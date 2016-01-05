@@ -4,14 +4,14 @@
 
 ```js
 // default node path.resolve
-var resolve = require('resolve-base')
+var resolve = require('resolve-basepath')
 resolve('foo', 'bla') // returns '/currentdir/foo/bla'
 
 // path.resolve with a base path
-var resolve2 = require('resolve-base').base(__dirname)
+var resolve2 = require('resolve-basepath').base(__dirname)
 resolve2('foo', 'bla') // returns '/directoryOfScript/foo/bla'
 
 // path.resolve with multiple base paths
-var resolve2 = require('resolve-base').base(__dirname, 'foo')
+var resolve2 = require('resolve-basepath').base(__dirname, 'foo')
 resolve2('bla') // returns '/directoryOfScript/foo/bla'
 ```
