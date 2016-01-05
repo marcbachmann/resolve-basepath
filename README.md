@@ -2,7 +2,7 @@
 
 `resolve-base` is a extends nodes `path.resolve` with a base path feature.
 
-```
+```js
 // default node path.resolve
 var resolve = require('resolve-base')
 resolve('foo', 'bla') // returns '/currentdir/foo/bla'
