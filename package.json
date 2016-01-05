@@ -1,0 +1,15 @@
+{
+  "name": "resolve-basepath",
+  "version": "1.0.0",
+  "description": "This module extends node's `path.resolve` with a base path feature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "preversion": "npm test"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concat-arrays": "^1.0.1"
+  }
+}
