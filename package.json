@@ -2,6 +2,7 @@
   "name": "resolve-basepath",
   "version": "1.0.0",
   "description": "This module extends node's `path.resolve` with a base path feature.",
+  "keywords": ["resolve", "path", "basepath", "join", "prefix", "directory"],
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
@@ -11,5 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "concat-arrays": "^1.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/resolve-basepath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/resolve-basepath/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/resolve-basepath#readme"
 }

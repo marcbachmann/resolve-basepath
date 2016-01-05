@@ -1,6 +1,6 @@
 # resolve-basepath
 
-`resolve-base` is a extends nodes `path.resolve` with a base path feature.
+`resolve-basepath` extends node's `path.resolve` with a base path feature.
 
 ```js
 // default node path.resolve
