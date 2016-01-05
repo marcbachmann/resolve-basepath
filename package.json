@@ -1,6 +1,6 @@
 {
   "name": "resolve-basepath",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module extends node's `path.resolve` with a base path feature.",
   "keywords": [
     "resolve",
