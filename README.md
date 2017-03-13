@@ -1,5 +1,7 @@
 # resolve-basepath
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcbachmann/resolve-basepath.svg)](https://greenkeeper.io/)
+
 `resolve-basepath` extends node's `path.resolve` with a base path feature.
 
 ```js
