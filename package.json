@@ -18,7 +18,7 @@
   "author": "Marc Bachmann <marc.brookman@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "concat-arrays": "^1.0.1"
+    "concat-arrays": "1.0.2"
   },
   "devDependencies": {},
   "repository": {
